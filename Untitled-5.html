@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <style>
+        h1 {text-align: center;}
+        h1 {font-size:70;}
+        h1 {font-family: Arial, sans-serif;}
+        </style>   
+    <h1>Apple</h1>
+    <title>Project 😎</title>
+    <style>
+    .topnav {
+        background-color: #000000;
+        overflow: hidden;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .topnav a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25;
+        font-style:normal;
+        font-variant: small-caps;
+        font-family: Arial, sans-serif;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    body {
+        background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=1380&t=st=1704095728~exp=1704096328~hmac=78b0264ec6a1e7904c3aaa2f0fbd1f01685f4a2a09ea490f3da75bafeb29434d");
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute; left: 450;
+        text-align: center;
+        padding: 250;
+        font-size: 40px;
+        text-shadow: #201f1f;
+        
+    }
+    .dark-mode{
+        background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149151738.jpg?w=1380&t=st=1704525753~exp=1704526353~hmac=6267af8af9adc81eba29745df85c0af7851992cde5b7e9ac0e7c8d150931a89b");
+        color: white;
+    }
+    button{
+        color: white;
+        width: 200px;
+        height: 30;
+        background-color: #000000;
+        text-decoration: none;
+        font-size: 20;
+        font-style:normal;
+        font-variant: small-caps;
+        font-family: Arial, sans-serif; 
+    }
+    button:hover{
+        background-color: #4CAF50;
+    }
+
+</style>
+</head>
+<body>
+    <button onclick="darkmode()">Theme</button>
+<div class="topnav">
+    <a href="http://127.0.0.1:3000/Untitled-1.html">Home</a>
+    <a href="http://127.0.0.1:3000/Untitled-2.html">About</a>
+    <a href="http://127.0.0.1:3000/Untitled-3.html">Book</a>
+    <a href="http://127.0.0.1:3000/Untitled-4.html">Price</a>
+    <a href="http://127.0.0.1:3000/Untitled-5.html" class="active">Contact Us</a>
+</div>
+
+
+
+<p>Email : abc123@gmail.com</p><br><br><br><br>
+<p>Phone : 9990008881</p><br><br><br><br>
+<p>location : 82/92 New York   PIN : 549167</p><br><br>
+</body>
+<script>
+    function darkmode(){
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+
+    </head>
